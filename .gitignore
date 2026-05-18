@@ -1,0 +1,120 @@
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+out/
+artifacts/
+
+# =========================
+# Rider / IntelliJ
+# =========================
+.idea/
+*.sln.iml
+
+# =========================
+# User-specific files
+# =========================
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# =========================
+# Mono / Rider temp
+# =========================
+*.pidb
+*.booproj
+*.svd
+
+# =========================
+# VS Code (optional)
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Keep NuGet config if needed
+# !nuget.config
+
+# =========================
+# .NET Core
+# =========================
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# =========================
+# Test results
+# =========================
+TestResults/
+*.coverage
+*.coveragexml
+
+# =========================
+# Publish output
+# =========================
+publish/
+
+# =========================
+# Resharper / Rider caches
+# =========================
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# =========================
+# Debug / profiling
+# =========================
+*.psess
+*.vsp
+*.vspx
+
+# =========================
+# Azure / local settings
+# =========================
+local.settings.json
+
+# =========================
+# SQL Server
+# =========================
+*.mdf
+*.ldf
+
+# =========================
+# Generated files
+# =========================
+Generated_Code/
+
+# =========================
+# Backup & temp
+# =========================
+*.bak
+*.tmp
+*.temp
+
+# =========================
+# NuGet restore files
+# =========================
+*.nuget.dgspec.json
+*.nuget.g.props
+*.nuget.g.targets
+project.assets.json
